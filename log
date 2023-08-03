@@ -1,0 +1,640 @@
+2023-08-03 18:46:08.055  2725-3287  DollieAdapterService    pid-2725                             E  notifyActivityState pkg:com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity state:2 fg:true mUid:11746
+2023-08-03 18:46:08.058 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:46:08.069 15816-16734 HiTouch_Pr...reDetector com.zerone.mood                      D  onAttached, package=com.zerone.mood, windowType=1, mIsHiTouchRestricted=false
+2023-08-03 18:46:08.078 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:46:08.106 15816-15816 SensorManager           com.zerone.mood                      D  0x786359f800 addFd fd=275
+2023-08-03 18:46:08.118 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 112866(4837KB) AllocSpace objects, 37(2076KB) LOS objects, 49% free, 18MB/37MB, paused 121us total 103.030ms
+2023-08-03 18:46:08.126 15816-15816 DecorView               com.zerone.mood                      D  showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+2023-08-03 18:46:08.128 15816-15816 InputMethodManager      com.zerone.mood                      W  startInputReason = 1
+2023-08-03 18:46:08.129 15816-15816 HwRemoteIn...hodManager com.zerone.mood                      W  isCasting false because IHwDistributedWindowManager is invalid.
+2023-08-03 18:46:08.131 15816-16736 CameraManagerGlobal     com.zerone.mood                      I  Connecting to camera service
+2023-08-03 18:46:08.142 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x78a054d2d0 disconnect failed
+2023-08-03 18:46:08.152 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:46:08.152 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:46:08.155 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:46:08.155 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:46:08.155 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:46:08.157 15816-15816 TempActivity Stacktrace com.zerone.mood                      I  java.lang.Throwable
+                                                                                                    	at com.zerone.mood.ui.temp.TempActivity.onDestroy(TempActivity.java:140)
+                                                                                                    	at android.app.Activity.performDestroy(Activity.java:8478)
+                                                                                                    	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1355)
+                                                                                                    	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:5868)
+                                                                                                    	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:5913)
+                                                                                                    	at android.app.servertransaction.DestroyActivityItem.execute(DestroyActivityItem.java:44)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2618)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loop(Looper.java:219)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8673)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+2023-08-03 18:46:08.157 15816-15816 ActivityThread          com.zerone.mood                      D  Remove activity client record, r= ActivityRecord{52f7649 token=android.os.BinderProxy@d5b42a1 {com.zerone.mood/com.zerone.mood.ui.temp.TempActivity}} token= android.os.BinderProxy@d5b42a1
+2023-08-03 18:46:08.158 15816-15816 ViewRootImpl            com.zerone.mood                      I  dispatchDetachedFromWindow in doDie
+2023-08-03 18:46:08.167 15816-16736 CameraRepository        com.zerone.mood                      D  Added camera: 0
+2023-08-03 18:46:08.186 15816-16736 Camera2CameraInfo       com.zerone.mood                      I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED
+2023-08-03 18:46:08.187 15816-16736 CameraRepository        com.zerone.mood                      D  Added camera: 1
+2023-08-03 18:46:08.188 15816-16736 Camera2CameraInfo       com.zerone.mood                      I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED
+2023-08-03 18:46:08.189 15816-16736 CameraRepository        com.zerone.mood                      D  Added camera: 2
+2023-08-03 18:46:08.189 15816-16736 Camera2CameraInfo       com.zerone.mood                      I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED
+2023-08-03 18:46:08.189 15816-16736 CameraRepository        com.zerone.mood                      D  Added camera: 3
+2023-08-03 18:46:08.190 15816-16736 Camera2CameraInfo       com.zerone.mood                      I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED
+2023-08-03 18:46:08.190 15816-16736 CameraRepository        com.zerone.mood                      D  Added camera: 4
+2023-08-03 18:46:08.191 15816-16736 Camera2CameraInfo       com.zerone.mood                      I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED
+2023-08-03 18:46:08.191 15816-16736 CameraRepository        com.zerone.mood                      D  Added camera: 5
+2023-08-03 18:46:08.191 15816-16736 Camera2CameraInfo       com.zerone.mood                      I  Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_LIMITED
+2023-08-03 18:46:08.192 15816-16736 CameraValidator         com.zerone.mood                      D  Verifying camera lens facing on HWCDY, lensFacingInteger: null
+2023-08-03 18:46:08.221 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:08.222 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:08.227 15816-15816 DeferrableSurface       com.zerone.mood                      D  Surface created[total_surfaces=1, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@d2ea4a2}
+2023-08-03 18:46:08.232 15816-15816 DeferrableSurface       com.zerone.mood                      D  Surface created[total_surfaces=2, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@cff8669}
+2023-08-03 18:46:08.233 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021 ACTIVE
+2023-08-03 18:46:08.234 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:08.234 15816-16741 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:08.234 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:08.235 15816-15816 DeferrableSurface       com.zerone.mood                      D  Surface created[total_surfaces=3, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@f6425fa}
+2023-08-03 18:46:08.236 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908 INACTIVE
+2023-08-03 18:46:08.236 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:08.236 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021 ACTIVE
+2023-08-03 18:46:08.236 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:08.236 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:08.237 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314 INACTIVE
+2023-08-03 18:46:08.237 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:08.238 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:08.238 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use cases [androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908, androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314] now ATTACHED
+2023-08-03 18:46:08.239 15816-15816 PreviewView             com.zerone.mood                      D  Surface requested by Preview.
+2023-08-03 18:46:08.239 15816-16737 UseCaseAttachState      com.zerone.mood                      D  All use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908, androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314] for camera: 0
+2023-08-03 18:46:08.239 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021] for camera: 0
+2023-08-03 18:46:08.241 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Resetting Capture Session
+2023-08-03 18:46:08.241 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Releasing session in state INITIALIZED
+2023-08-03 18:46:08.241 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Attempting to force open the camera.
+2023-08-03 18:46:08.242 15816-16737 CameraStateRegistry     com.zerone.mood                      D  tryOpenCamera(Camera@29fde2e[id=0]) [Available Cameras: 1, Already Open: false (Previous state: null)] --> SUCCESS
+2023-08-03 18:46:08.242 15816-16737 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         OPENING               
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2023-08-03 18:46:08.242 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Opening camera.
+2023-08-03 18:46:08.242 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+2023-08-03 18:46:08.242 15816-16737 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2023-08-03 18:46:08.242 15816-16737 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=OPENING, error=null}
+2023-08-03 18:46:08.243 15816-16737 UseCaseAttachState      com.zerone.mood                      D  All use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908, androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314] for camera: 0
+2023-08-03 18:46:08.245 15816-16737 CameraManager           com.zerone.mood                      I  open camera: 0, package name: com.zerone.mood
+2023-08-03 18:46:08.258 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface created.
+2023-08-03 18:46:08.258 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface changed. Size: 1920x1080
+2023-08-03 18:46:08.260 15816-15816 PreviewView             com.zerone.mood                      D  Preview transformation info updated. TransformationInfo{cropRect=Rect(0, 0 - 1920, 1080), rotationDegrees=90, targetRotation=0}
+2023-08-03 18:46:08.260 15816-15816 PreviewTransform        com.zerone.mood                      D  Transformation info set: TransformationInfo{cropRect=Rect(0, 0 - 1920, 1080), rotationDegrees=90, targetRotation=0} 1920x1080 false
+2023-08-03 18:46:08.261 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:08.262 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface set on Preview.
+2023-08-03 18:46:08.285 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908 INACTIVE
+2023-08-03 18:46:08.285 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021] for camera: 0
+2023-08-03 18:46:08.290 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021 ACTIVE
+2023-08-03 18:46:08.290 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021] for camera: 0
+2023-08-03 18:46:08.292 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314 INACTIVE
+2023-08-03 18:46:08.293 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021] for camera: 0
+2023-08-03 18:46:08.294 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908 ACTIVE
+2023-08-03 18:46:08.295 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908] for camera: 0
+2023-08-03 18:46:08.303 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908] for camera: 0
+2023-08-03 18:46:08.308 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} CameraDevice.onOpened()
+2023-08-03 18:46:08.308 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: OPENING --> OPENED
+2023-08-03 18:46:08.308 15816-16737 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         OPEN                  
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2023-08-03 18:46:08.309 15816-16737 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+2023-08-03 18:46:08.309 15816-16737 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=OPEN, error=null}
+2023-08-03 18:46:08.310 15816-16737 UseCaseAttachState      com.zerone.mood                      D  All use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908, androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314] for camera: 0
+2023-08-03 18:46:08.317 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908] for camera: 0
+2023-08-03 18:46:08.319 15816-16737 SyncCaptureSessionBase  com.zerone.mood                      D  [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@24d36f] getSurface...done
+2023-08-03 18:46:08.319 15816-16737 CaptureSession          com.zerone.mood                      D  Opening capture session.
+2023-08-03 18:46:08.323 15816-16737 DeferrableSurface       com.zerone.mood                      D  New surface in use[total_surfaces=3, used_surfaces=1](androidx.camera.core.SurfaceRequest$2@d2ea4a2}
+2023-08-03 18:46:08.323 15816-16737 DeferrableSurface       com.zerone.mood                      D  use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@d2ea4a2
+2023-08-03 18:46:08.323 15816-16737 DeferrableSurface       com.zerone.mood                      D  New surface in use[total_surfaces=3, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@cff8669}
+2023-08-03 18:46:08.323 15816-16737 DeferrableSurface       com.zerone.mood                      D  use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@cff8669
+2023-08-03 18:46:08.323 15816-16737 DeferrableSurface       com.zerone.mood                      D  New surface in use[total_surfaces=3, used_surfaces=3](androidx.camera.core.impl.ImmediateSurface@f6425fa}
+2023-08-03 18:46:08.323 15816-16737 DeferrableSurface       com.zerone.mood                      D  use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@f6425fa
+2023-08-03 18:46:08.335 15816-16737 CaptureSession          com.zerone.mood                      D  Attempting to send capture request onConfigured
+2023-08-03 18:46:08.336 15816-16737 CaptureSession          com.zerone.mood                      D  Issuing request for session.
+2023-08-03 18:46:08.336 15816-16737 CaptureRequestBuilder   com.zerone.mood                      D  createCaptureRequest
+2023-08-03 18:46:08.338 15816-16737 CaptureSession          com.zerone.mood                      D  CameraCaptureSession.onConfigured() mState=OPENED
+2023-08-03 18:46:08.338 15816-16737 CaptureSession          com.zerone.mood                      D  CameraCaptureSession.onReady() OPENED
+2023-08-03 18:46:08.467 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x78bd4d0090 disconnect failed
+2023-08-03 18:46:08.483 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x78bd4cedd0 disconnect failed
+2023-08-03 18:46:08.964 15816-16736 StreamStateObserver     com.zerone.mood                      D  Update Preview stream state to STREAMING
+2023-08-03 18:46:09.676 15816-15816 Settings                com.zerone.mood                      W  Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+2023-08-03 18:46:09.676 15816-15816 HiTouch_HiTouchSensor   com.zerone.mood                      V  User setup is finished.
+2023-08-03 18:46:09.780 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:09.780 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:46:09.781 15816-15816 ImageCapture            com.zerone.mood                      D  Send image capture request [current, pending] = [0, 1]
+2023-08-03 18:46:09.781 15816-15816 ImageCapture            com.zerone.mood                      D  issueTakePicture
+2023-08-03 18:46:09.785 15816-16739 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Issue capture request
+2023-08-03 18:46:09.786 15816-16739 CaptureSession          com.zerone.mood                      D  Issuing capture request.
+2023-08-03 18:46:09.788 15816-16739 CaptureRequestBuilder   com.zerone.mood                      D  createCaptureRequest
+2023-08-03 18:46:09.820 15816-16100 Gralloc3                com.zerone.mood                      W  allocator 3.x is not supported
+2023-08-03 18:46:11.061 15816-15816 AudioManager            com.zerone.mood                      V  querySoundEffectsEnabled...
+2023-08-03 18:46:11.071 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:46:11.075 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:46:11.076 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:46:11.076 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:46:11.084  1812-2153  WindowManager           pid-1812                             E  win=Window{a728209 u0 com.zerone.mood/com.zerone.mood.MainActivity} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+2023-08-03 18:46:11.089 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:46:11.090 15816-15816 ActivityThread          com.zerone.mood                      D  Won't deliver top position change in state=4
+2023-08-03 18:46:11.090 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:46:11.091 15816-15816 UMLog_Social            com.zerone.mood                      I  onActivityResult =1946317080  resultCode=0
+2023-08-03 18:46:11.093 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/.MainActivity;S.startFromLauncher=shortcut;end
+2023-08-03 18:46:11.093 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:46:11.093 15816-15816 crashsdk                com.zerone.mood                      I  Unexp log not enabled, skip update unexp info!
+2023-08-03 18:46:11.095 15816-15816 AndroidAutoSize         com.zerone.mood                      D  The com.zerone.mood.MainActivity has been adapted! 
+                                                                                                    MainActivity Info: isBaseOnWidth = true, designWidthInDp = 375.000000, designWidthInSubunits = 375.000000, targetDensity = 2.880000, targetScaledDensity = 2.880000, targetDensityDpi = 460, targetXdpi = 2.880000, targetScreenWidthDp = 375, targetScreenHeightDp = 758
+2023-08-03 18:46:11.097 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:46:11.099  2725-3287  DollieAdapterService    pid-2725                             E  notifyActivityState pkg:com.zerone.mood/com.zerone.mood.MainActivity state:2 fg:true mUid:11746
+2023-08-03 18:46:11.104 15816-15995 MobclickAgent           com.zerone.mood                      D  延续上一个会话: 29C9802852043C67C381F1EC72451961
+2023-08-03 18:46:11.106 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:46:11.113 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:46:11.148 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:46:11.150 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:46:11.150 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:46:11.177 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:46:11.177 15816-15816 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:11.180 15816-15816 DecorView               com.zerone.mood                      D  showOrHideHighlightView: hasFocus=false; winMode=1; isMrgNull=true
+2023-08-03 18:46:11.183 15816-15816 InputMethodManager      com.zerone.mood                      W  startInputReason = 1
+2023-08-03 18:46:11.183 15816-15816 HwRemoteIn...hodManager com.zerone.mood                      W  isCasting false because IHwDistributedWindowManager is invalid.
+2023-08-03 18:46:11.237 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:46:11.238 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:46:11.272 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:11.535 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface destroyed.
+2023-08-03 18:46:11.535 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface invalidated androidx.camera.core.SurfaceRequest@611506d
+2023-08-03 18:46:11.535 15816-15816 DeferrableSurface       com.zerone.mood                      D  surface closed,  useCount=1 closed=true androidx.camera.core.SurfaceRequest$2@d2ea4a2
+2023-08-03 18:46:11.545 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x78a054e6d0 disconnect failed
+2023-08-03 18:46:11.551 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:46:11.551 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use cases [androidx.camera.core.Preview-c62450cf-a9b2-4117-b029-ecfd64debea6248188908, androidx.camera.core.ImageCapture-2dc99b77-eb65-49b9-8fda-f8e7111a976b131588021, androidx.camera.core.ImageAnalysis-563f94a4-ae96-44eb-8e91-2d7eb2fd99b2135370314] now DETACHED for camera
+2023-08-03 18:46:11.551 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:46:11.552 15816-16737 UseCaseAttachState      com.zerone.mood                      D  All use case: [] for camera: 0
+2023-08-03 18:46:11.552 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Resetting Capture Session
+2023-08-03 18:46:11.553 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Releasing session in state OPENED
+2023-08-03 18:46:11.553 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:11.554 15816-15816 DeferrableSurface       com.zerone.mood                      D  surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@cff8669
+2023-08-03 18:46:11.554 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:11.554 15816-15816 DeferrableSurface       com.zerone.mood                      D  surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@f6425fa
+2023-08-03 18:46:11.554 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Closing camera.
+2023-08-03 18:46:11.555 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: OPENED --> CLOSING
+2023-08-03 18:46:11.555 15816-16737 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         CLOSING               
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2023-08-03 18:46:11.555 15816-16737 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+2023-08-03 18:46:11.555 15816-16737 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=CLOSING, error=null}
+2023-08-03 18:46:11.555 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:46:11.555 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:46:11.555 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Resetting Capture Session
+2023-08-03 18:46:11.555 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:46:11.555 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Releasing session in state CLOSING
+2023-08-03 18:46:11.556 15816-16737 CaptureSession          com.zerone.mood                      D  onSessionFinished()
+2023-08-03 18:46:11.556 15816-16737 CameraDevice-JV-0       com.zerone.mood                      I  close camera: 0, package name: com.zerone.mood
+2023-08-03 18:46:11.557 15816-15816 ActivityThread          com.zerone.mood                      D  Remove activity client record, r= ActivityRecord{eb51c07 token=android.os.BinderProxy@5c14d6a {com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity}} token= android.os.BinderProxy@5c14d6a
+2023-08-03 18:46:11.558 15816-15816 ViewRootImpl            com.zerone.mood                      I  dispatchDetachedFromWindow in doDie
+2023-08-03 18:46:11.563 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:46:11.568 15816-15816 StreamStateObserver     com.zerone.mood                      D  Update Preview stream state to IDLE
+2023-08-03 18:46:11.608 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:11.691 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:11.756 15816-15841 CameraDevice-JV-0       com.zerone.mood                      I  Camera now idle
+2023-08-03 18:46:11.756 15816-16737 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:46:11.757 15816-16737 DeferrableSurface       com.zerone.mood                      D  use count-1,  useCount=0 closed=true androidx.camera.core.SurfaceRequest$2@d2ea4a2
+2023-08-03 18:46:11.757 15816-16737 DeferrableSurface       com.zerone.mood                      D  Surface no longer in use[total_surfaces=3, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@d2ea4a2}
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  Surface terminated[total_surfaces=2, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@d2ea4a2}
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@cff8669
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  Surface no longer in use[total_surfaces=2, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@cff8669}
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  Surface terminated[total_surfaces=1, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@cff8669}
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@f6425fa
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  Surface no longer in use[total_surfaces=1, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@f6425fa}
+2023-08-03 18:46:11.758 15816-16737 DeferrableSurface       com.zerone.mood                      D  Surface terminated[total_surfaces=0, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@f6425fa}
+2023-08-03 18:46:11.759 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} CameraDevice.onClosed()
+2023-08-03 18:46:11.760 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: CLOSING --> INITIALIZED
+2023-08-03 18:46:11.760 15816-16737 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         CLOSED                
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 0 (Max allowed: 1)
+2023-08-03 18:46:11.760 15816-16737 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=CLOSED, error=null} from CLOSED and null
+2023-08-03 18:46:11.761 15816-16737 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=CLOSED, error=null}
+2023-08-03 18:46:11.771 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Safe to release surface.
+2023-08-03 18:46:11.777 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:11.880 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:11.959 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.026 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.092 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.179 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.242 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.325 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.406 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.495 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.574 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.641 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 1 line
+2023-08-03 18:46:12.707 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.774 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.855 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:12.957 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.067 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.143 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.220 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.306 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.390 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.454 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.554 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.771 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 3 lines
+2023-08-03 18:46:13.836 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:13.918 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.004 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.102 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.166 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 1 line
+2023-08-03 18:46:14.235 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.301 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.367 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.433 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.517 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.601 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.680 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.766 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 1 line
+2023-08-03 18:46:14.832 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.918 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:14.997 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.063 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.148 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 1 line
+2023-08-03 18:46:15.230 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.314 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.399 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.480 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.546 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.678 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 2 lines
+2023-08-03 18:46:15.741 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.810 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.876 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:15.943 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:16.029 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:46:22.175 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:46:30.233 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 25966(886KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 18MB/37MB, paused 105us total 104.882ms
+2023-08-03 18:46:33.061 15816-15878 GooglePlayServicesUtil  com.zerone.mood                      W  com.zerone.mood requires the Google Play Store, but it is missing.
+2023-08-03 18:46:33.062 15816-15878 GooglePlayServicesUtil  com.zerone.mood                      W  com.zerone.mood requires the Google Play Store, but it is missing.
+2023-08-03 18:46:39.289 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:46:43.531 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 29131(1058KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 18MB/37MB, paused 91us total 102.467ms
+2023-08-03 18:46:49.545 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:46:57.732 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 25703(811KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 18MB/37MB, paused 139us total 109.372ms
+2023-08-03 18:46:58.724 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:08.908 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:11.987 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 25501(818KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 18MB/37MB, paused 92us total 101.281ms
+2023-08-03 18:47:21.101 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:26.252 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 27298(1041KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 18MB/36MB, paused 338us total 109.032ms
+2023-08-03 18:47:28.244 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:32.314 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:37.400 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:44.560 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:47.611 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:50.597 15816-15816 AudioManager            com.zerone.mood                      V  querySoundEffectsEnabled...
+2023-08-03 18:47:50.628 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:50.634 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:47:50.637 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/.MainActivity;S.startFromLauncher=shortcut;end
+2023-08-03 18:47:50.637 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.637 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:47:50.650 15816-15816 ActivityThread          com.zerone.mood                      W  handleWindowVisibility: no activity for token android.os.BinderProxy@25a774e
+2023-08-03 18:47:50.664 15816-15816 ActivityThread          com.zerone.mood                      V  callActivityOnCreate
+2023-08-03 18:47:50.668 15816-15816 DecorView[]             com.zerone.mood                      I  pkgName:com.zerone.mood old windowMode:0 new windoMode:1, isFixedSize:false
+2023-08-03 18:47:50.673 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:47:50.673 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.675 15816-15816 ActivityThread          com.zerone.mood                      D  add activity client record, r= ActivityRecord{55cc72d token=android.os.BinderProxy@25a774e {com.zerone.mood/com.zerone.mood.ui.temp.TempActivity}} token= android.os.BinderProxy@25a774e
+2023-08-03 18:47:50.676 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:47:50.676 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.676 15816-15816 HuaweiAd                com.zerone.mood                      I  jump hasPaused: false
+2023-08-03 18:47:50.682  1812-2545  ActivityTaskManager     pid-1812                             E  START {flg=0x10000000 hwFlg=0x10 cmp=com.zerone.mood/.MainActivity (has extras)} result: 3
+2023-08-03 18:47:50.684 15816-15816 crashsdk                com.zerone.mood                      I  Unexp log not enabled, skip update unexp info!
+2023-08-03 18:47:50.719 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:47:50.719 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.722 15816-15816 MouseWheelSynthesizer   com.zerone.mood                      D  mMoveStepInDp: 64, mMoveStepInPixel: 192, mUpTimeDelayed: 100
+2023-08-03 18:47:50.722 15816-15816 ViewRootImpl            com.zerone.mood                      D  ViewRootImpl mIsInProductivePCDisplay: false
+2023-08-03 18:47:50.724 15816-15995 MobclickAgent           com.zerone.mood                      D  延续上一个会话: 29C9802852043C67C381F1EC72451961
+2023-08-03 18:47:50.726 15816-15816 InputEventReceiver      com.zerone.mood                      D  dispatchInputInterval 1000000
+2023-08-03 18:47:50.726 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:47:50.729  2725-3287  DollieAdapterService    pid-2725                             E  notifyActivityState pkg:com.zerone.mood/com.zerone.mood.ui.temp.TempActivity state:2 fg:true mUid:11746
+2023-08-03 18:47:50.736 15816-16920 HiTouch_Pr...reDetector com.zerone.mood                      D  onAttached, package=com.zerone.mood, windowType=1, mIsHiTouchRestricted=false
+2023-08-03 18:47:50.741 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:47:50.757 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:47:50.757 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.757 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:47:50.768 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parseMainPluginPushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/.MainActivity;S.startFromLauncher=shortcut;end
+2023-08-03 18:47:50.768 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parseMainPluginPushIntent JSONObject:[{"from_tcp":false}]
+2023-08-03 18:47:50.768 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parseSchemePluginPushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/.MainActivity;S.startFromLauncher=shortcut;end
+2023-08-03 18:47:50.768 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parseSchemePluginPushIntent JSONArray:[{"from_tcp":false}]
+2023-08-03 18:47:50.768 15816-15816 System.out              com.zerone.mood                      I  MobPushLog-------------jsonSchemevar打印查看：var Intent { flg=0x10000000 cmp=com.zerone.mood/.MainActivity (has extras) }
+2023-08-03 18:47:50.770 15816-15968 OpenGLRenderer          com.zerone.mood                      D  disableOutlineDraw is true
+2023-08-03 18:47:50.770 15816-15816 ActivityThread          com.zerone.mood                      W  handleWindowVisibility: no activity for token android.os.BinderProxy@b2ee972
+2023-08-03 18:47:50.773 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:47:50.775 15816-15816 ActivityThread          com.zerone.mood                      V  callActivityOnCreate
+2023-08-03 18:47:50.778 15816-15816 DecorView[]             com.zerone.mood                      I  pkgName:com.zerone.mood old windowMode:0 new windoMode:1, isFixedSize:false
+2023-08-03 18:47:50.783 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:47:50.783 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.801 15816-15816 ActivityThread          com.zerone.mood                      D  add activity client record, r= ActivityRecord{db2e7ef token=android.os.BinderProxy@b2ee972 {com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity}} token= android.os.BinderProxy@b2ee972
+2023-08-03 18:47:50.803 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:47:50.803 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.803 15816-15816 crashsdk                com.zerone.mood                      I  Unexp log not enabled, skip update unexp info!
+2023-08-03 18:47:50.805 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:47:50.805 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.807 15816-15816 MouseWheelSynthesizer   com.zerone.mood                      D  mMoveStepInDp: 64, mMoveStepInPixel: 192, mUpTimeDelayed: 100
+2023-08-03 18:47:50.807 15816-15816 ViewRootImpl            com.zerone.mood                      D  ViewRootImpl mIsInProductivePCDisplay: false
+2023-08-03 18:47:50.809 15816-15816 DecorView[]             com.zerone.mood                      I  pkgName:com.zerone.mood old windowMode:1 new windoMode:1, isFixedSize:false
+2023-08-03 18:47:50.811 15816-15995 MobclickAgent           com.zerone.mood                      D  延续上一个会话: 29C9802852043C67C381F1EC72451961
+2023-08-03 18:47:50.812 15816-15816 InputEventReceiver      com.zerone.mood                      D  dispatchInputInterval 1000000
+2023-08-03 18:47:50.814 15816-15968 OpenGLRenderer          com.zerone.mood                      D  disableOutlineDraw is true
+2023-08-03 18:47:50.815  2725-3287  DollieAdapterService    pid-2725                             E  notifyActivityState pkg:com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity state:2 fg:true mUid:11746
+2023-08-03 18:47:50.821 15816-16932 HiTouch_Pr...reDetector com.zerone.mood                      D  onAttached, package=com.zerone.mood, windowType=1, mIsHiTouchRestricted=false
+2023-08-03 18:47:50.827 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:47:50.828 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:47:50.856 15816-15816 SensorManager           com.zerone.mood                      D  0x789168ab00 addFd fd=228
+2023-08-03 18:47:50.860 15816-15816 DecorView               com.zerone.mood                      D  showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+2023-08-03 18:47:50.870 15816-15816 InputMethodManager      com.zerone.mood                      W  startInputReason = 1
+2023-08-03 18:47:50.870 15816-15816 HwRemoteIn...hodManager com.zerone.mood                      W  isCasting false because IHwDistributedWindowManager is invalid.
+2023-08-03 18:47:50.884 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:50.885 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:50.887 15816-15816 DeferrableSurface       com.zerone.mood                      D  Surface created[total_surfaces=1, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@9228a2e}
+2023-08-03 18:47:50.889 15816-15816 DeferrableSurface       com.zerone.mood                      D  Surface created[total_surfaces=2, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@25fa265}
+2023-08-03 18:47:50.890 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:50.891 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:50.891 15816-16736 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252 ACTIVE
+2023-08-03 18:47:50.891 15816-16736 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:50.891 15816-15816 DeferrableSurface       com.zerone.mood                      D  Surface created[total_surfaces=3, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@b352548}
+2023-08-03 18:47:50.892 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039 INACTIVE
+2023-08-03 18:47:50.892 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:50.893 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:50.893 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252 ACTIVE
+2023-08-03 18:47:50.893 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:50.893 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549 INACTIVE
+2023-08-03 18:47:50.893 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:50.893 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:50.894 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use cases [androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039, androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549] now ATTACHED
+2023-08-03 18:47:50.894 15816-16740 UseCaseAttachState      com.zerone.mood                      D  All use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039, androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549] for camera: 0
+2023-08-03 18:47:50.895 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252] for camera: 0
+2023-08-03 18:47:50.897 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Resetting Capture Session
+2023-08-03 18:47:50.898 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Releasing session in state INITIALIZED
+2023-08-03 18:47:50.898 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Attempting to force open the camera.
+2023-08-03 18:47:50.898 15816-16740 CameraStateRegistry     com.zerone.mood                      D  tryOpenCamera(Camera@29fde2e[id=0]) [Available Cameras: 1, Already Open: false (Previous state: CLOSED)] --> SUCCESS
+2023-08-03 18:47:50.899 15816-16740 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         OPENING               
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2023-08-03 18:47:50.899 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Opening camera.
+2023-08-03 18:47:50.900 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+2023-08-03 18:47:50.900 15816-16740 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+2023-08-03 18:47:50.901 15816-16740 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=OPENING, error=null}
+2023-08-03 18:47:50.902 15816-15816 PreviewView             com.zerone.mood                      D  Surface requested by Preview.
+2023-08-03 18:47:50.902 15816-16740 UseCaseAttachState      com.zerone.mood                      D  All use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039, androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549] for camera: 0
+2023-08-03 18:47:50.905 15816-16740 CameraManager           com.zerone.mood                      I  open camera: 0, package name: com.zerone.mood
+2023-08-03 18:47:50.921 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039 INACTIVE
+2023-08-03 18:47:50.923 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x780b7f2f50 disconnect failed
+2023-08-03 18:47:50.923 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252] for camera: 0
+2023-08-03 18:47:50.927 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252 ACTIVE
+2023-08-03 18:47:50.928 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252] for camera: 0
+2023-08-03 18:47:50.931 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549 INACTIVE
+2023-08-03 18:47:50.932 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252] for camera: 0
+2023-08-03 18:47:50.939 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface created.
+2023-08-03 18:47:50.939 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface changed. Size: 1920x1080
+2023-08-03 18:47:50.939 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use case androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039 ACTIVE
+2023-08-03 18:47:50.942 15816-15816 PreviewView             com.zerone.mood                      D  Preview transformation info updated. TransformationInfo{cropRect=Rect(0, 0 - 1920, 1080), rotationDegrees=90, targetRotation=0}
+2023-08-03 18:47:50.942 15816-15816 PreviewTransform        com.zerone.mood                      D  Transformation info set: TransformationInfo{cropRect=Rect(0, 0 - 1920, 1080), rotationDegrees=90, targetRotation=0} 1920x1080 false
+2023-08-03 18:47:50.944 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:50.945 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface set on Preview.
+2023-08-03 18:47:50.946 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039] for camera: 0
+2023-08-03 18:47:50.951 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039] for camera: 0
+2023-08-03 18:47:50.955 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} CameraDevice.onOpened()
+2023-08-03 18:47:50.955 15816-16740 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: OPENING --> OPENED
+2023-08-03 18:47:50.956 15816-16740 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         OPEN                  
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2023-08-03 18:47:50.956 15816-16740 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+2023-08-03 18:47:50.956 15816-16740 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=OPEN, error=null}
+2023-08-03 18:47:50.957 15816-16740 UseCaseAttachState      com.zerone.mood                      D  All use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039, androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549] for camera: 0
+2023-08-03 18:47:50.958 15816-16740 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039] for camera: 0
+2023-08-03 18:47:50.960 15816-16740 SyncCaptureSessionBase  com.zerone.mood                      D  [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@79e7d53] getSurface...done
+2023-08-03 18:47:50.962 15816-16740 CaptureSession          com.zerone.mood                      D  Opening capture session.
+2023-08-03 18:47:50.968 15816-16740 DeferrableSurface       com.zerone.mood                      D  New surface in use[total_surfaces=3, used_surfaces=1](androidx.camera.core.SurfaceRequest$2@9228a2e}
+2023-08-03 18:47:50.968 15816-16740 DeferrableSurface       com.zerone.mood                      D  use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@9228a2e
+2023-08-03 18:47:50.968 15816-16740 DeferrableSurface       com.zerone.mood                      D  New surface in use[total_surfaces=3, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@25fa265}
+2023-08-03 18:47:50.968 15816-16740 DeferrableSurface       com.zerone.mood                      D  use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@25fa265
+2023-08-03 18:47:50.968 15816-16740 DeferrableSurface       com.zerone.mood                      D  New surface in use[total_surfaces=3, used_surfaces=3](androidx.camera.core.impl.ImmediateSurface@b352548}
+2023-08-03 18:47:50.968 15816-16740 DeferrableSurface       com.zerone.mood                      D  use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@b352548
+2023-08-03 18:47:50.976 15816-16740 CaptureSession          com.zerone.mood                      D  Attempting to send capture request onConfigured
+2023-08-03 18:47:50.976 15816-16740 CaptureSession          com.zerone.mood                      D  Issuing request for session.
+2023-08-03 18:47:50.976 15816-16740 CaptureRequestBuilder   com.zerone.mood                      D  createCaptureRequest
+2023-08-03 18:47:50.980 15816-16740 CaptureSession          com.zerone.mood                      D  CameraCaptureSession.onConfigured() mState=OPENED
+2023-08-03 18:47:50.980 15816-16740 CaptureSession          com.zerone.mood                      D  CameraCaptureSession.onReady() OPENED
+2023-08-03 18:47:50.987 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:47:50.987 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.991 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;component=com.zerone.mood/.ui.temp.TempActivity;i.type=0;end
+2023-08-03 18:47:50.992 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:50.992 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:47:50.995 15816-15816 TempActivity Stacktrace com.zerone.mood                      I  java.lang.Throwable
+                                                                                                    	at com.zerone.mood.ui.temp.TempActivity.onDestroy(TempActivity.java:140)
+                                                                                                    	at android.app.Activity.performDestroy(Activity.java:8478)
+                                                                                                    	at android.app.Instrumentation.callActivityOnDestroy(Instrumentation.java:1355)
+                                                                                                    	at android.app.ActivityThread.performDestroyActivity(ActivityThread.java:5868)
+                                                                                                    	at android.app.ActivityThread.handleDestroyActivity(ActivityThread.java:5913)
+                                                                                                    	at android.app.servertransaction.DestroyActivityItem.execute(DestroyActivityItem.java:44)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:190)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:105)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2618)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:110)
+                                                                                                    	at android.os.Looper.loop(Looper.java:219)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:8673)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+2023-08-03 18:47:50.995 15816-15816 ActivityThread          com.zerone.mood                      D  Remove activity client record, r= ActivityRecord{55cc72d token=android.os.BinderProxy@25a774e {com.zerone.mood/com.zerone.mood.ui.temp.TempActivity}} token= android.os.BinderProxy@25a774e
+2023-08-03 18:47:50.995 15816-15816 ViewRootImpl            com.zerone.mood                      I  dispatchDetachedFromWindow in doDie
+2023-08-03 18:47:50.999 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 59106(2710KB) AllocSpace objects, 18(936KB) LOS objects, 50% free, 19MB/38MB, paused 156us total 110.437ms
+2023-08-03 18:47:51.216 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x78bd4d2890 disconnect failed
+2023-08-03 18:47:51.234 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x78a054e590 disconnect failed
+2023-08-03 18:47:51.480 15816-16741 StreamStateObserver     com.zerone.mood                      D  Update Preview stream state to STREAMING
+2023-08-03 18:47:52.319 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=270, sourceRotationDegrees=90, isOppositeFacing=true, result=180
+2023-08-03 18:47:52.504 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:54.664 15816-15816 Settings                com.zerone.mood                      W  Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+2023-08-03 18:47:54.665 15816-15816 HiTouch_HiTouchSensor   com.zerone.mood                      V  User setup is finished.
+2023-08-03 18:47:54.796 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:54.797 15816-15816 CameraOrientationUtil   com.zerone.mood                      D  getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=90, isOppositeFacing=true, result=90
+2023-08-03 18:47:54.797 15816-15816 ImageCapture            com.zerone.mood                      D  Send image capture request [current, pending] = [0, 1]
+2023-08-03 18:47:54.797 15816-15816 ImageCapture            com.zerone.mood                      D  issueTakePicture
+2023-08-03 18:47:54.799 15816-16737 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Issue capture request
+2023-08-03 18:47:54.799 15816-16737 CaptureSession          com.zerone.mood                      D  Issuing capture request.
+2023-08-03 18:47:54.800 15816-16737 CaptureRequestBuilder   com.zerone.mood                      D  createCaptureRequest
+2023-08-03 18:47:56.615 15816-15816 AudioManager            com.zerone.mood                      V  querySoundEffectsEnabled...
+2023-08-03 18:47:56.624 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:47:56.627 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:47:56.627 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:56.628 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:47:56.636  1812-2571  WindowManager           pid-1812                             E  win=Window{a728209 u0 com.zerone.mood/com.zerone.mood.MainActivity} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+2023-08-03 18:47:56.643 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:47:56.644 15816-15816 ActivityThread          com.zerone.mood                      D  Won't deliver top position change in state=4
+2023-08-03 18:47:56.644 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:47:56.645 15816-15816 UMLog_Social            com.zerone.mood                      I  onActivityResult =1946317080  resultCode=0
+2023-08-03 18:47:56.647 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/.MainActivity;S.startFromLauncher=shortcut;end
+2023-08-03 18:47:56.647 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:56.647 15816-15816 crashsdk                com.zerone.mood                      I  Unexp log not enabled, skip update unexp info!
+2023-08-03 18:47:56.649 15816-15816 AndroidAutoSize         com.zerone.mood                      D  The com.zerone.mood.MainActivity has been adapted! 
+                                                                                                    MainActivity Info: isBaseOnWidth = true, designWidthInDp = 375.000000, designWidthInSubunits = 375.000000, targetDensity = 2.880000, targetScaledDensity = 2.880000, targetDensityDpi = 460, targetXdpi = 2.880000, targetScreenWidthDp = 375, targetScreenHeightDp = 758
+2023-08-03 18:47:56.651 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:47:56.653  2725-3287  DollieAdapterService    pid-2725                             E  notifyActivityState pkg:com.zerone.mood/com.zerone.mood.MainActivity state:2 fg:true mUid:11746
+2023-08-03 18:47:56.664 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:47:56.668 15816-15995 MobclickAgent           com.zerone.mood                      D  延续上一个会话: 29C9802852043C67C381F1EC72451961
+2023-08-03 18:47:56.671 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:47:56.699 15816-15968 mali_winsys             com.zerone.mood                      D  EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2023-08-03 18:47:56.701 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:47:56.701 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:47:56.731 15816-15816 HwViewRootImpl          com.zerone.mood                      I  removeInvalidNode all the node in jank list is out of time
+2023-08-03 18:47:56.735 15816-15816 DecorView               com.zerone.mood                      D  showOrHideHighlightView: hasFocus=false; winMode=1; isMrgNull=true
+2023-08-03 18:47:56.737 15816-15816 InputMethodManager      com.zerone.mood                      W  startInputReason = 1
+2023-08-03 18:47:56.738 15816-15816 HwRemoteIn...hodManager com.zerone.mood                      W  isCasting false because IHwDistributedWindowManager is invalid.
+2023-08-03 18:47:56.774 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:56.788 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:47:56.788 15816-15816 BitmapFactory           com.zerone.mood                      D  decodeResource getCachedBitmap ok
+2023-08-03 18:47:56.858 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:56.942 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.029 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.088 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface destroyed.
+2023-08-03 18:47:57.088 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Surface invalidated androidx.camera.core.SurfaceRequest@b2e64a9
+2023-08-03 18:47:57.088 15816-15816 DeferrableSurface       com.zerone.mood                      D  surface closed,  useCount=1 closed=true androidx.camera.core.SurfaceRequest$2@9228a2e
+2023-08-03 18:47:57.097 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x780b7f3e50 disconnect failed
+2023-08-03 18:47:57.114 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Use cases [androidx.camera.core.Preview-18d47478-d34c-4a25-8a5c-77fde7cd8e3f125966039, androidx.camera.core.ImageCapture-1db25321-1b1a-4350-9b84-14e08efa7662111373252, androidx.camera.core.ImageAnalysis-cfcc2496-9a21-46f8-ab36-a382c2586aad201509549] now DETACHED for camera
+2023-08-03 18:47:57.114 15816-16741 UseCaseAttachState      com.zerone.mood                      D  All use case: [] for camera: 0
+2023-08-03 18:47:57.116 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Resetting Capture Session
+2023-08-03 18:47:57.116 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:47:57.116 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:57.117 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Releasing session in state OPENED
+2023-08-03 18:47:57.117 15816-16741 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:57.118 15816-16741 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:57.119 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Closing camera.
+2023-08-03 18:47:57.119 15816-15816 DeferrableSurface       com.zerone.mood                      D  surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@25fa265
+2023-08-03 18:47:57.119 15816-15816 DeferrableSurface       com.zerone.mood                      D  surface closed,  useCount=1 closed=true androidx.camera.core.impl.ImmediateSurface@b352548
+2023-08-03 18:47:57.120 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: OPENED --> CLOSING
+2023-08-03 18:47:57.121 15816-16741 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         CLOSING               
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 1 (Max allowed: 1)
+2023-08-03 18:47:57.121 15816-16741 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=CLOSING, error=null} from CLOSING and null
+2023-08-03 18:47:57.121 15816-16741 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=CLOSING, error=null}
+2023-08-03 18:47:57.121 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent uri:intent:#Intent;launchFlags=0x10000000;component=com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity;B.com.luck.lib.camerax.isAutoRotation=true;S.com.luck.lib.camerax.OutputPathDir=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Fcom.zerone.mood%2Ffiles%2FSandbox%2F;i.com.luck.lib.camerax.VideoBitRate=3145728;B.com.luck.lib.camerax.isManualFocus=true;i.com.luck.lib.camerax.VideoFrameRate=25;i.com.luck.lib.camerax.CameraMode=1;B.com.luck.lib.camerax.DisplayRecordChangeTime=true;B.com.luck.lib.camerax.isZoomPreview=true;end
+2023-08-03 18:47:57.121 15816-15816 MobPushLogger           com.zerone.mood                      I  [MobPush]MobPush parsePushIntent JSONArray:{}
+2023-08-03 18:47:57.122 15816-15816 HiAdSDK.Sc...tiveLayout com.zerone.mood                      I   stop
+2023-08-03 18:47:57.122 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Resetting Capture Session
+2023-08-03 18:47:57.123 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Releasing session in state CLOSING
+2023-08-03 18:47:57.123 15816-16741 CaptureSession          com.zerone.mood                      D  onSessionFinished()
+2023-08-03 18:47:57.123 15816-16741 CameraDevice-JV-0       com.zerone.mood                      I  close camera: 0, package name: com.zerone.mood
+2023-08-03 18:47:57.125 15816-15816 ActivityThread          com.zerone.mood                      D  Remove activity client record, r= ActivityRecord{db2e7ef token=android.os.BinderProxy@b2ee972 {com.zerone.mood/com.luck.lib.camerax.PictureCameraActivity}} token= android.os.BinderProxy@b2ee972
+2023-08-03 18:47:57.125 15816-15816 ViewRootImpl            com.zerone.mood                      I  dispatchDetachedFromWindow in doDie
+2023-08-03 18:47:57.131 15816-15816 RtgSchedManager         com.zerone.mood                      E  endActivityTransaction: margin state not match
+2023-08-03 18:47:57.140 15816-15816 StreamStateObserver     com.zerone.mood                      D  Update Preview stream state to IDLE
+2023-08-03 18:47:57.142 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.228 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.286 15816-16741 UseCaseAttachState      com.zerone.mood                      D  Active and attached use case: [] for camera: 0
+2023-08-03 18:47:57.287 15816-15858 CameraDevice-JV-0       com.zerone.mood                      I  Camera now idle
+2023-08-03 18:47:57.287 15816-16741 DeferrableSurface       com.zerone.mood                      D  use count-1,  useCount=0 closed=true androidx.camera.core.SurfaceRequest$2@9228a2e
+2023-08-03 18:47:57.287 15816-16741 DeferrableSurface       com.zerone.mood                      D  Surface no longer in use[total_surfaces=3, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@9228a2e}
+2023-08-03 18:47:57.287 15816-16741 DeferrableSurface       com.zerone.mood                      D  Surface terminated[total_surfaces=2, used_surfaces=2](androidx.camera.core.SurfaceRequest$2@9228a2e}
+2023-08-03 18:47:57.288 15816-16741 DeferrableSurface       com.zerone.mood                      D  use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@25fa265
+2023-08-03 18:47:57.289 15816-16741 DeferrableSurface       com.zerone.mood                      D  Surface no longer in use[total_surfaces=2, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@25fa265}
+2023-08-03 18:47:57.289 15816-16741 DeferrableSurface       com.zerone.mood                      D  Surface terminated[total_surfaces=1, used_surfaces=1](androidx.camera.core.impl.ImmediateSurface@25fa265}
+2023-08-03 18:47:57.289 15816-16741 DeferrableSurface       com.zerone.mood                      D  use count-1,  useCount=0 closed=true androidx.camera.core.impl.ImmediateSurface@b352548
+2023-08-03 18:47:57.289 15816-16741 DeferrableSurface       com.zerone.mood                      D  Surface no longer in use[total_surfaces=1, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@b352548}
+2023-08-03 18:47:57.289 15816-16741 DeferrableSurface       com.zerone.mood                      D  Surface terminated[total_surfaces=0, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@b352548}
+2023-08-03 18:47:57.291 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} CameraDevice.onClosed()
+2023-08-03 18:47:57.291 15816-16741 Camera2CameraImpl       com.zerone.mood                      D  {Camera@29fde2e[id=0]} Transitioning camera internal state: CLOSING --> INITIALIZED
+2023-08-03 18:47:57.292 15816-16741 CameraStateRegistry     com.zerone.mood                      D  Recalculating open cameras:
+                                                                                                    Camera                                       State                 
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Camera@29fde2e[id=0]                         CLOSED                
+                                                                                                    Camera@4610b7[id=3]                          UNKNOWN               
+                                                                                                    Camera@a5a0b8e[id=4]                         UNKNOWN               
+                                                                                                    Camera@294a6c1[id=5]                         UNKNOWN               
+                                                                                                    Camera@8e2db8c[id=2]                         UNKNOWN               
+                                                                                                    Camera@5f98506[id=1]                         UNKNOWN               
+                                                                                                    -------------------------------------------------------------------
+                                                                                                    Open count: 0 (Max allowed: 1)
+2023-08-03 18:47:57.292 15816-16741 CameraStateMachine      com.zerone.mood                      D  New public camera state CameraState{type=CLOSED, error=null} from CLOSED and null
+2023-08-03 18:47:57.292 15816-16741 CameraStateMachine      com.zerone.mood                      D  Publishing new public camera state CameraState{type=CLOSED, error=null}
+2023-08-03 18:47:57.293 15816-15816 SurfaceViewImpl         com.zerone.mood                      D  Safe to release surface.
+2023-08-03 18:47:57.315 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.434 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.497 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.563 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.644 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.712 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.797 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.860 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:57.947 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.029 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.111 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.195 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.278 15816-15968 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) RenderThread identical 1 line
+2023-08-03 18:47:58.345 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.427 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.497 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.592 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:58.676 15816-15968 RmeSchedManager         com.zerone.mood                      I  SetMarginData, input:3, animation:4, traversal:4, util:600, frameRate:60
+2023-08-03 18:47:59.050 15816-15816 ViewRootImpl            com.zerone.mood                      I  dispatchDetachedFromWindow in doDie
+2023-08-03 18:47:59.059 15816-15968 libEGL                  com.zerone.mood                      W  EGLNativeWindowType 0x792180f1d0 disconnect failed
+2023-08-03 18:47:59.069 15816-15995 UMLog                   com.zerone.mood                      D  当前发送策略为：启动时发送。详见链接 https://developer.umeng.com/docs/66632/detail/66976?um_channel=sdk
+2023-08-03 18:47:59.072 15816-15816 DecorView               com.zerone.mood                      D  showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+2023-08-03 18:47:59.073 15816-15816 InputMethodManager      com.zerone.mood                      W  startInputReason = 1
+2023-08-03 18:47:59.074 15816-15816 HwRemoteIn...hodManager com.zerone.mood                      W  isCasting false because IHwDistributedWindowManager is invalid.
+2023-08-03 18:49:09.437 15816-15831 com.zerone.moo          com.zerone.mood                      I  NativeAlloc concurrent copying GC freed 10935(436KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 18MB/37MB, paused 100us total 100.834ms
+2023-08-03 18:49:25.492 15816-16288 System                  com.zerone.mood                      W  A resource failed to call response.body().close(). 
+2023-08-03 18:49:25.492 15816-16288 System                  com.zerone.mood                      W  A resource failed to call response.body().close(). 
+2023-08-03 18:49:25.492 15816-16288 System                  com.zerone.mood                      W  A resource failed to call response.body().close(). 
+2023-08-03 18:49:25.493 15816-16288 System                  com.zerone.mood                      W  A resource failed to call response.body().close(). 
+2023-08-03 18:49:25.493 15816-16288 System                  com.zerone.mood                      W  A resource failed to call response.body().close(). 
+2023-08-03 18:49:25.493 15816-16288 chatty                  com.zerone.mood                      I  uid=11746(com.zerone.mood) OkHttp Connecti identical 2 lines
+2023-08-03 18:49:25.493 15816-16288 System                  com.zerone.mood                      W  A resource failed to call response.body().close(). 
